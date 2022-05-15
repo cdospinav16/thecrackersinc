@@ -1,0 +1,219 @@
+html{
+  min-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+*, *::before, *:after {
+  box-sizing: inherit;
+}
+
+#header-index{
+  display: grid;
+  grid-template-columns: 1.25fr 1.25fr 2fr;
+  margin: 0;
+  padding: 0;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+  color: #000000;
+}
+
+#header-index img{
+  max-width: 90%;
+  margin: 1em;
+}
+
+.container-lemanama{
+  text-align: center;
+  max-width: 100%;
+}
+
+#namecompany{
+  font-size: 2em;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#lemacompany{
+  font-size: 1.25em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#header-index nav{
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125em;
+  text-align: right;
+}
+
+#header-index li{
+  display: inline-block;
+  margin: 0.5em;
+}
+
+#header-index li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#header-index li a:hover, a:active{
+  color: rgb(16, 59, 76);
+  font-size: 1.25em;
+}
+
+#header-index #selecttab a{
+  color: rgb(16, 59, 76);
+  font-size: 1.25em;
+}
+
+
+.art-title{
+  overflow: hidden;
+  position: relative;
+}
+
+.art-title img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.art-title h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 6rem;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px #000000;
+}
+
+.art-title h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px #000000;
+}
+
+
+.twocolumns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.img img{
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  min-height: 100%;
+  max-height: 150%;
+  min-width: 100%;
+  max-width: 150%;
+}
+
+.textbody{
+  padding: 3em;
+}
+
+.textbody h2{
+  padding: 0.5em;
+  color: #000000;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.textbody p{
+  text-align: justify;
+  /* font-size: 22px; */
+  font-size: 1.375em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.art-cite{
+  margin: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+.art-cite img{
+  width: 100%;
+  height: 100%;
+}
+
+.art-cite q{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px #000000;
+}
+.art-cite cite{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px #000000;
+}
+
+.social{
+  margin: auto;
+  text-align: center;
+}
+
+.social a{
+  margin: auto;
+  padding: 1em;
+}
+.social a img{
+  margin-top: 1em;
+  height: 35px;
+  width: 35px;
+}
+
+/* Footer styles */
+.footer-index{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2em;
+}
+
+.footer-index a{
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.footer-index a img{
+  height: 30px;
+  width: 30px;
+}
